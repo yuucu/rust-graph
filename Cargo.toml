@@ -3,7 +3,16 @@ name = "graph"
 version = "0.1.0"
 authors = ["higuchi-yuya-ab <higuchi_yuya@applibot.co.jp>"]
 edition = "2018"
+default-run = "main"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+
+[[bin]]
+name = "main"
+path = "src/main.rs"
+
+[[bin]]
+name = "st_path_main"
+path = "src/bin/st_path_main.rs"

@@ -14,5 +14,9 @@ name = "main"
 path = "src/main.rs"
 
 [[bin]]
-name = "st_path_main"
-path = "src/bin/st_path_main.rs"
+name = "main_st_path"
+path = "src/bin/main_st_path.rs"
+
+[[bin]]
+name = "main_shortest_path"
+path = "src/bin/main_shortest_path.rs"

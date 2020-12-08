@@ -13,7 +13,9 @@ fn main() {
         let nums_tmp = input_module::convert_nums(input_tmp);
         let node1 = nums_tmp[0];
         let node2 = nums_tmp[1];
+        // 無向グラフなので互いにpush
         node_vec[node1].push(node2);
+        node_vec[node2].push(node1);
     }
     // println!("{:?}", node_vec);
 
@@ -26,7 +28,8 @@ fn main() {
         let from = nums_tmp[0];
         let to = nums_tmp[1];
         let visited = graph_module::bfs(from, &node_vec);
-        let result = visited[to] != -1;
+        let result = visited[to];
+        // println!("{:?}", visited);
         println!("{}", result);
     }
 }

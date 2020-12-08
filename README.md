@@ -4,5 +4,5 @@
 s-tパス判定
 
 ```
-cat graph_input_st.txt  | cargo run --bin st_path_main
+cat inputs/graph_input_st.txt  | cargo run --bin st_path_main
 ```

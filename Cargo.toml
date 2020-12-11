@@ -20,3 +20,7 @@ path = "src/bin/main_st_path.rs"
 [[bin]]
 name = "main_shortest_path"
 path = "src/bin/main_shortest_path.rs"
+
+[[bin]]
+name = "main_bipartite_graph"
+path = "src/bin/main_bipartite_graph.rs"

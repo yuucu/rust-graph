@@ -24,3 +24,7 @@ path = "src/bin/main_shortest_path.rs"
 [[bin]]
 name = "main_bipartite_graph"
 path = "src/bin/main_bipartite_graph.rs"
+
+[[bin]]
+name = "main_graph_diameter"
+path = "src/bin/main_graph_diameter.rs"

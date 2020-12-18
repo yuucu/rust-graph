@@ -23,3 +23,10 @@ cat inputs/graph_input.txt  | cargo run --bin main_bipartite_graph
 cat inputs/bigraph_input.txt  | cargo run --bin main_bipartite_graph
 # true
 ```
+
+# q4
+グラフの直径
+
+```
+cat inputs/graph_input.txt  | cargo run --bin main_graph_diameter
+```

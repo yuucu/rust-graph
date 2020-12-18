@@ -5,6 +5,5 @@ fn main() {
     println!("input: {}", input);
 }
 
-
 #[cfg(test)]
 mod test;

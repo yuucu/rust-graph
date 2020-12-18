@@ -1,5 +1,5 @@
-use graph::input_module;
 use graph::graph_module;
+use graph::input_module;
 
 fn main() {
     let input1 = input_module::get_input();
@@ -19,6 +19,4 @@ fn main() {
     }
     let is_bipartite = graph_module::bipartite_graph_bfs(0, &node_vec);
     println!("{}", is_bipartite);
-
 }
-

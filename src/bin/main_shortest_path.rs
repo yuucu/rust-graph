@@ -1,5 +1,5 @@
-use graph::input_module;
 use graph::graph_module;
+use graph::input_module;
 
 fn main() {
     let input1 = input_module::get_input();
@@ -33,4 +33,3 @@ fn main() {
         println!("{}", result);
     }
 }
-
